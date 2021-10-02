@@ -26,7 +26,10 @@
       <section id="player" class="container">
         <h2>Your Health</h2>
         <div class="healthbar">
-          <div class="healthbar__value" :style="playerBarStyles"></div>
+          <div
+            class="healthbar__value"
+            :style="playegit config --global credential.helper cachegitrBarStyles"
+          ></div>
         </div>
         <section class="container" v-if="winner">
           <h2>Game Over !</h2>
@@ -48,11 +51,6 @@
       </section>
       <section id="log" class="container">
         <h2>Log</h2>
-        <h2>Log2 test</h2>
-        <h3>d</h3>
-        <h3>TESTOVACI TAG</h3>
-        <h3>TESTOVACI TAG</h3>
-        <h3>TEST DALSI</h3>
         <ul>
           <li v-for="logMessage in logMessages">
             <span
